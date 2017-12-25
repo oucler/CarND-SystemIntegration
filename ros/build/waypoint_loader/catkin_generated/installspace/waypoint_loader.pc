@@ -1,0 +1,8 @@
+prefix=/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install
+
+Name: waypoint_loader
+Description: Description of waypoint_loader
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install/lib 
+Requires: 
