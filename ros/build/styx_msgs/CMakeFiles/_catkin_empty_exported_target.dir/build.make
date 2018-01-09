@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src
+CMAKE_SOURCE_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build
+CMAKE_BINARY_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_expo
 .PHONY : styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src/styx_msgs /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx_msgs /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src/styx_msgs /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx_msgs /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : styx_msgs/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

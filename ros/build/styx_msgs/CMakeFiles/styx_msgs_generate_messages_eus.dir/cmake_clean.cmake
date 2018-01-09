@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/styx_msgs_generate_messages_eus"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/share/roseus/ros/styx_msgs/msg/Lane.l"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/share/roseus/ros/styx_msgs/msg/TrafficLight.l"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/share/roseus/ros/styx_msgs/msg/TrafficLightArray.l"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/share/roseus/ros/styx_msgs/msg/Waypoint.l"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/share/roseus/ros/styx_msgs/manifest.l"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/share/roseus/ros/styx_msgs/msg/Lane.l"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/share/roseus/ros/styx_msgs/msg/TrafficLight.l"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/share/roseus/ros/styx_msgs/msg/Waypoint.l"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/share/roseus/ros/styx_msgs/msg/TrafficLightArray.l"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/share/roseus/ros/styx_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

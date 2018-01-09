@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src
+CMAKE_SOURCE_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build
+CMAKE_BINARY_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

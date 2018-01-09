@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src/waypoint_updater
+# Install script for directory: /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src/waypoint_updater
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/waypoint_updater/catkin_generated/installspace/waypoint_updater.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/waypoint_updater/catkin_generated/installspace/waypoint_updater.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_updater/cmake" TYPE FILE FILES
-    "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/waypoint_updater/catkin_generated/installspace/waypoint_updaterConfig.cmake"
-    "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/waypoint_updater/catkin_generated/installspace/waypoint_updaterConfig-version.cmake"
+    "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/waypoint_updater/catkin_generated/installspace/waypoint_updaterConfig.cmake"
+    "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/waypoint_updater/catkin_generated/installspace/waypoint_updaterConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_updater" TYPE FILE FILES "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src/waypoint_updater/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_updater" TYPE FILE FILES "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src/waypoint_updater/package.xml")
 endif()
 

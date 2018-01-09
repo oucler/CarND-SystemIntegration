@@ -1,8 +1,8 @@
-prefix=/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install
+prefix=/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/install
 
 Name: styx_msgs
 Description: Description of styx_msgs
 Version: 0.0.0
-Cflags: -I/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install/include
-Libs: -L/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install/lib 
+Cflags: -I/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/install/include
+Libs: -L/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/install/lib 
 Requires: 

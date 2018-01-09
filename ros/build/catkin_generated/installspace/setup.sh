@@ -8,7 +8,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install}
+: ${_CATKIN_SETUP_DIR:=/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/install}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src/styx
+# Install script for directory: /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src/styx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx/catkin_generated/installspace/styx.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx/catkin_generated/installspace/styx.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/styx/cmake" TYPE FILE FILES
-    "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx/catkin_generated/installspace/styxConfig.cmake"
-    "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx/catkin_generated/installspace/styxConfig-version.cmake"
+    "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx/catkin_generated/installspace/styxConfig.cmake"
+    "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx/catkin_generated/installspace/styxConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/styx" TYPE FILE FILES "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src/styx/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/styx" TYPE FILE FILES "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src/styx/package.xml")
 endif()
 

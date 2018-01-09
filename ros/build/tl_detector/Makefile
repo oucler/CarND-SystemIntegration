@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src
+CMAKE_SOURCE_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build
+CMAKE_BINARY_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/CMakeFiles /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/tl_detector/CMakeFiles/progress.marks
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/CMakeFiles 0
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/CMakeFiles /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/tl_detector/CMakeFiles/progress.marks
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/clean
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/preinstall
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/preinstall
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(MAKE) -f CMakeFiles/Makefile2 tl_detector/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

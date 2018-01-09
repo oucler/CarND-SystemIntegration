@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libwaypoint_follower.dir/lib/libwaypoint_follower.cpp.o"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/lib/liblibwaypoint_follower.pdb"
-  "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/lib/liblibwaypoint_follower.so"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/lib/liblibwaypoint_follower.pdb"
+  "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/lib/liblibwaypoint_follower.so"
 )
 
 # Per-language clean rules from dependency scanning.

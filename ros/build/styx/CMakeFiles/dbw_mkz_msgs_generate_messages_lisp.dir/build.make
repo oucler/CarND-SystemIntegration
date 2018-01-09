@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src
+CMAKE_SOURCE_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build
+CMAKE_BINARY_DIR = /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build
 
 # Utility rule file for dbw_mkz_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/build: dbw_mkz_msgs_gene
 .PHONY : styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/build
 
 styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/clean:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx && $(CMAKE_COMMAND) -P CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx && $(CMAKE_COMMAND) -P CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/clean
 
 styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/depend:
-	cd /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src/styx /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build/styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src/styx /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build/styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : styx/CMakeFiles/dbw_mkz_msgs_generate_messages_lisp.dir/depend
 

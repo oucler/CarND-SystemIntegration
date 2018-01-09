@@ -7,7 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build"
+export PYTHONPATH="/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/student/Classes/Udacity/SDCND/Term3/CarND-Capstone/ros/src:/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src:$ROS_PACKAGE_PATH"

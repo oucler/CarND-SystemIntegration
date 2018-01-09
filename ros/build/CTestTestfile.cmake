@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/src
-# Build directory: /home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/build
+# Source directory: /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/src
+# Build directory: /home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

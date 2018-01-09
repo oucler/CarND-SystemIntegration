@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "camera_info_publisher"
-PROJECT_SPACE_DIR = "/home/student/Project/Udacity/SDC/Term3/CarND-Capstone/ros/devel"
+PROJECT_SPACE_DIR = "/home/student/Classes/Udacity/SDCND/Term3/CarND-SystemIntegration/ros/devel"
 PROJECT_VERSION = "0.0.0"
